@@ -6,7 +6,7 @@
     <label>water bucket</label>
     <description>Bucket of water</description>
     <graphicData>
-      <texPath>Things/Item/Resource/Water_Bucket/Water_Bucket</texPath>
+      <texPath>Things/Item/Water_Bucket/Water_Bucket</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>0.75</drawSize>
     </graphicData>
