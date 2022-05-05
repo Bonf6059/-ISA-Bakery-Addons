@@ -6,7 +6,7 @@
     <label>empty bucket</label>
     <description>An empty Bucket</description>
     <graphicData>
-      <texPath>Things/Item/Resource/ISA_EmptyBucket/ISA_EmptyBucket</texPath>
+      <texPath>Things/Items/ISA_EmptyBucket/ISA_EmptyBucket</texPath>
     </graphicData>
     <statBases>
       <MarketValue>0.1</MarketValue>
