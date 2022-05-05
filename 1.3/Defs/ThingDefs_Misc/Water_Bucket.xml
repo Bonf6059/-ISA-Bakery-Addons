@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <ThingDef ParentName="PlantFoodRawBase">
+  <ThingDef ParentName="ResourceBase">
     <defName>ISA_Water_Bucket</defName>
     <label>water bucket</label>
     <description>Bucket of water</description>
@@ -10,7 +10,7 @@
     </graphicData>
     <statBases>
       <MarketValue>0.1</MarketValue>
-      <Mass>0.05</Mass>
+      <Mass>0.1</Mass>
       <MaxHitPoints>60</MaxHitPoints>
       <Flammability>0</Flammability>
     </statBases>
