@@ -7,7 +7,10 @@
     <description>An empty Bucket</description>
     <graphicData>
       <texPath>Things/Item/Empty_Bucket/Empty_Bucket</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.75</drawSize>
     </graphicData>
+    <stackLimit>150</stackLimit>
     <statBases>
       <MarketValue>0.1</MarketValue>
       <Mass>0.05</Mass>
