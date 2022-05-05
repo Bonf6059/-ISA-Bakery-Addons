@@ -6,7 +6,7 @@
     <label>water bucket</label>
     <description>Bucket of water</description>
     <graphicData>
-      <texPath>Things/Item/Resource/ISA_ArcticRoot/ISA_ArcticRoot</texPath>
+      <texPath>Things/Item/Resource/Water_Bucket/Water_Bucket</texPath>
     </graphicData>
     <statBases>
       <MarketValue>0.1</MarketValue>
