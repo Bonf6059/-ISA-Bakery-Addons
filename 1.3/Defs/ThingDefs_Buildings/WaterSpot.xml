@@ -2,21 +2,24 @@
 <Defs>
 
   <ThingDef ParentName="BuildingBase">
-    <defName>WaterSpot</defName>
-    <label>water spot</label>
-    <description>A place for crafting simple items like knives or bows. Production here is slow because of the lack of tools.</description>
+    <defName>SnowCraftingSpot</defName>
+    <label>snow crafting spot</label>
+    <description>A place for crafting snow crafting.</description>
     <thingClass>Building_WorkTable</thingClass>
     <graphicData>
-      <texPath>Things/Structure/WaterSpot/WaterSpot</texPath>
+      <texPath>Things/Item/WaterSpot/WaterSpot</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1,1)</drawSize>
     </graphicData>
     <altitudeLayer>FloorEmplacement</altitudeLayer>
-    <terrainAffordanceNeeded>Bridgeable</terrainAffordanceNeeded>
     <statBases>
       <WorkToBuild>0</WorkToBuild>
-      <WorkTableWorkSpeedFactor>0.5</WorkTableWorkSpeedFactor>
+      <WorkTableWorkSpeedFactor>1</WorkTableWorkSpeedFactor>
     </statBases>
+    <recipes>
+      <li>CollectWater</li>
+      <li>CraftEmptyBucket</li>
+    </recipes>
     <scatterableOnMapGen>false</scatterableOnMapGen>
     <useHitPoints>false</useHitPoints>
     <size>(1,1)</size>
@@ -25,9 +28,6 @@
     <hasInteractionCell>True</hasInteractionCell>
     <interactionCellOffset>(0,0,-1)</interactionCellOffset>
     <surfaceType>Item</surfaceType>
-    <recipes>
-      <li>GatherWater</li>
-    </recipes>
     <inspectorTabs>
       <li>ITab_Bills</li>
     </inspectorTabs>
@@ -42,16 +42,20 @@
       </buildingTags>
     </building>
     <comps>
+      <li Class="CompProperties_AffectedByFacilities">
+        <linkableFacilities>
+          <li>ToolCabinet</li>
+        </linkableFacilities>
+      </li>
       <li>
         <compClass>CompReportWorkSpeed</compClass>
       </li>
     </comps>
-    <designationHotKey>Misc1</designationHotKey>
+  <terrainAffordanceNeeded>Bridgeable</terrainAffordanceNeeded>
     <placeWorkers>
       <li>PlaceWorker_ShowFacilitiesConnections</li>
       <li>PlaceWorker_ReportWorkSpeedPenalties</li>
       <li>PlaceWorker_PreventInteractionSpotOverlap</li>
     </placeWorkers>
   </ThingDef>
-  
 </Defs>
