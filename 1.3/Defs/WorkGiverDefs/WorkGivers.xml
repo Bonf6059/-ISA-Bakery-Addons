@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+  <WorkGiverDef>
+    <defName>Collect_Water</defName>
+    <label>collect water</label>
+    <giverClass>WorkGiver_DoBill</giverClass>
+    <workType>Crafting</workType>
+    <priorityInType>99</priorityInType>
+    <fixedBillGiverDefs>
+      <li>WaterSpot</li>
+    </fixedBillGiverDefs>
+    <verb>fill</verb>
+    <gerund>filling</gerund>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+    <prioritizeSustains>true</prioritizeSustains>
+  </WorkGiverDef>
+  
+</Defs>
