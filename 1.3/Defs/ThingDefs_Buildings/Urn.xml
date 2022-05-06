@@ -2,8 +2,8 @@
 <Defs>
 
 <ThingDef ParentName="FurnitureWithQualityBase">
-    <defName>Shelf</defName>
-    <label>shelf</label>
+    <defName>ISA_Urn</defName>
+    <label>urn</label>
     <description>A shelf for storing miscellaneous items. Items stored in this will not affect room beauty and they won't deteriorate, even if outside.</description>
     <thingClass>Building_Storage</thingClass>
     <graphicData>
