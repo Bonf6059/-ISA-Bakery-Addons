@@ -2,12 +2,12 @@
 <Defs>
 
   <ThingDef ParentName="BuildingBase">
-    <defName>SnowCraftingSpot</defName>
-    <label>snow crafting spot</label>
-    <description>A place for crafting snow crafting.</description>
+    <defName>WaterSpot</defName>
+    <label>water spot</label>
+    <description>A place for collecting water.</description>
     <thingClass>Building_WorkTable</thingClass>
     <graphicData>
-      <texPath>Things/Item/WaterSpot/WaterSpot</texPath>
+      <texPath>Things/Structure/WaterSpot/WaterSpot</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1,1)</drawSize>
     </graphicData>
