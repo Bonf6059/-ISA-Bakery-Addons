@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<RecipeDef>
+    <defName>CraftDough</defName>
+    <label>craft dought</label>
+    <description>Make dough.</description>
+    <jobString>making dough.</jobString>
+    <workAmount>30</workAmount>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RawRice</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ISA_Water_Bucket</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <products>
+      <ISA_Dough>3</ISA_Dough>
+    </products>
+  </RecipeDef>
+
+</Defs>
