@@ -8,6 +8,7 @@
     <jobString>making dough.</jobString>
     <workAmount>30</workAmount>
     <workSpeedStat>CookSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
     <ingredients>
       <li>
         <filter>
