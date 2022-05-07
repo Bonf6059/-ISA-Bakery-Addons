@@ -19,10 +19,46 @@
     </ingestible>
     <comps>
       <li Class="CompProperties_Rottable">
-        <daysToRotStart>4daysToRotStart>
+        <daysToRotStart>4</daysToRotStart>
         <rotDestroys>true</rotDestroys>
       </li>
     </comps>
   </ThingDef>
 
 </Defs>
+
+
+
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef Abstract="True" Name="DoughBase" ParentName="OrganicProductBase">
+    <stackLimit>25</stackLimit>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>60</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <DeteriorationRate>6</DeteriorationRate>
+      <Mass>0.03</Mass>
+    </statBases>
+    <tickerType>Rare</tickerType>
+    <healthAffectsPrice>false</healthAffectsPrice>
+  </ThingDef>
+
+<ThingDef ParentName="DoughBase">
+    <defName>ISA_Dough</defName>
+    <label>dough</label>
+    <description>dough.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Doughs/Dough</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1</MarketValue>
+      <WorkToMake>300</WorkToMake>
+    </statBases>
+  </ThingDef>
+
+</Defs>
+
