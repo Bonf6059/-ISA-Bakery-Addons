@@ -1,37 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-<ThingDef ParentName="OrganicProductBase">
-    <defName>ISA_Dough</defName>
-    <label>dough</label>
-    <description>dough.</description>
-    <soundInteract>Grain_Drop</soundInteract>
-    <soundDrop>Grain_Drop</soundDrop>
-    <graphicData>
-      <texPath>Things/Item/Resource/Doughs/Dough</texPath>
-    </graphicData>
-    <statBases>
-      <MarketValue>1</MarketValue>
-    </statBases>
-    <ingestible>
-      <preferability>DesperateOnly</preferability>
-      <canAutoSelectAsFoodForCaravan>false</canAutoSelectAsFoodForCaravan>
-    </ingestible>
-    <comps>
-      <li Class="CompProperties_Rottable">
-        <daysToRotStart>4</daysToRotStart>
-        <rotDestroys>true</rotDestroys>
-      </li>
-    </comps>
-  </ThingDef>
-
-</Defs>
-
-
-
-<?xml version="1.0" encoding="utf-8" ?>
-<Defs>
-
   <ThingDef Abstract="True" Name="DoughBase" ParentName="OrganicProductBase">
     <stackLimit>25</stackLimit>
     <graphicData>
@@ -61,4 +30,3 @@
   </ThingDef>
 
 </Defs>
-
