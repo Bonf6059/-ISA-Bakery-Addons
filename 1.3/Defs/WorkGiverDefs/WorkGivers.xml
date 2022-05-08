@@ -6,7 +6,7 @@
     <label>collect water</label>
     <giverClass>WorkGiver_DoBill</giverClass>
     <workType>Crafting</workType>
-    <priorityInType>99</priorityInType>
+    <priorityInType>100</priorityInType>
     <fixedBillGiverDefs>
       <li>WaterSpot</li>
     </fixedBillGiverDefs>
