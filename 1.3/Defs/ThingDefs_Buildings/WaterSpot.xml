@@ -18,7 +18,8 @@
     </statBases>
     <recipes>
       <li>CollectWater</li>
-      <li>CraftEmptyBucket</li>
+      <li>4CollectWater</li>
+      <li>16CollectWater</li>
     </recipes>
     <scatterableOnMapGen>false</scatterableOnMapGen>
     <useHitPoints>false</useHitPoints>
