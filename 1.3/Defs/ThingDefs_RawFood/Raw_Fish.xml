@@ -11,7 +11,7 @@
  ​     </​li​> 
  ​   </​comps​> 
 ​    <​statBases​> 
- ​     <​Nutrition​>0.05</​Nutrition​> 
+ ​     <​Nutrition​>0.2</​Nutrition​> 
  ​     <​Flammability​>0.5</​Flammability​> 
  ​     <​FoodPoisonChanceFixedHuman​>0.1</​FoodPoisonChanceFixedHuman​> 
  ​   </​statBases​> 
