@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <RecipeDef>
+    <defName>Fishing</defName>
+    <label>fishing</label>
+    <description>Fishing.</description>
+    <jobString>fishing.</jobString>
+    <workAmount>600</workAmount>
+    <workSpeedStat>AnimalTaming</workSpeedStat>
+    <effectWorking>Animal</effectWorking>
+    <ingredients>
+    </ingredients>
+    <products>
+      <ISA_RawFish>3</ISA_RawFish>
+    </products>
+  </RecipeDef>
+
+</Defs>
