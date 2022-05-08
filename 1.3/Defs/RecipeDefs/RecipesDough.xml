@@ -4,7 +4,7 @@
   <RecipeDef>
     <defName>CraftRiceDough</defName>
     <label>craft rice dought</label>
-    <description>Make rice dough.</description>
+    <description>Make dough from rice.</description>
     <jobString>making rice dough.</jobString>
     <workAmount>300</workAmount>
     <workSpeedStat>CookSpeed</workSpeedStat>
@@ -35,7 +35,7 @@
   <RecipeDef>
     <defName>CraftPotatoDough</defName>
     <label>craft potato dought</label>
-    <description>Make potato dough.</description>
+    <description>Make dough from potato.</description>
     <jobString>making potato dough.</jobString>
     <workAmount>300</workAmount>
     <workSpeedStat>CookSpeed</workSpeedStat>
@@ -66,7 +66,7 @@
   <RecipeDef>
     <defName>CraftCornDough</defName>
     <label>craft corn dought</label>
-    <description>Make corn dough.</description>
+    <description>Make dough from corn.</description>
     <jobString>making corn dough.</jobString>
     <workAmount>300</workAmount>
     <workSpeedStat>CookSpeed</workSpeedStat>
