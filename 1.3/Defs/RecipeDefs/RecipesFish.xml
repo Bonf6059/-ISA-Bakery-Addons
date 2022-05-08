@@ -7,8 +7,8 @@
     <description>Fishing.</description>
     <jobString>fishing.</jobString>
     <workAmount>600</workAmount>
-    <workSpeedStat>AnimalTaming</workSpeedStat>
-    <effectWorking>Animal</effectWorking>
+    <workSpeedStat>HuntingStealth</workSpeedStat>
+    <effectWorking>Handling</effectWorking>
     <ingredients>
     </ingredients>
     <products>
