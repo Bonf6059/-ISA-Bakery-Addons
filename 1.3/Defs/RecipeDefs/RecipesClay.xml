@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <RecipeDef>
+    <defName>CollectClay</defName>
+    <label>collect clay</label>
+    <description>Collect clay from underwater.</description>
+    <jobString>collecting clay.</jobString>
+    <workAmount>500</workAmount>
+    <workSpeedStat>MiningSpeed</workSpeedStat>
+    <effectWorking>Mining</effectWorking>
+    <ingredients>
+    </ingredients>
+    <products>
+      <ISA_Clay>16</ISA_Clay>
+    </products>
+  </RecipeDef>
+
+</Defs>
