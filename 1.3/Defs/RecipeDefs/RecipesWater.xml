@@ -17,4 +17,36 @@
     </products>
   </RecipeDef>
 
+  <RecipeDef>
+    <defName>CollectWater</defName>
+    <label>collect water</label>
+    <description>Make a batch of chemfuel by extracting and condensing wood gas from logs.</description>
+    <jobString>collecting water.</jobString>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <workAmount>150</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <ingredients>
+    </ingredients>
+    <products>
+      <ISA_Water_Bucket>4</ISA_Water_Bucket>
+    </products>
+  </RecipeDef>
+
+  <RecipeDef>
+    <defName>CollectWater</defName>
+    <label>collect water</label>
+    <description>Make a batch of chemfuel by extracting and condensing wood gas from logs.</description>
+    <jobString>collecting water.</jobString>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <workAmount>150</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <ingredients>
+    </ingredients>
+    <products>
+      <ISA_Water_Bucket>16</ISA_Water_Bucket>
+    </products>
+  </RecipeDef>
+
 </Defs>
