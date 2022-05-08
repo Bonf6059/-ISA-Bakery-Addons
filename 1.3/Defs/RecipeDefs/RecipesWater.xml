@@ -34,7 +34,7 @@
   </RecipeDef>
 
   <RecipeDef>
-    <defName>CollectWater</defName>
+    <defName>16CollectWater</defName>
     <label>collect 16 water bucket</label>
     <description>Make a batch of chemfuel by extracting and condensing wood gas from logs.</description>
     <jobString>collecting water.</jobString>
