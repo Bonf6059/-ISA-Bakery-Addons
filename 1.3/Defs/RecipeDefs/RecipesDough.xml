@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-<RecipeDef>
-    <defName>CraftDough</defName>
-    <label>craft dought</label>
-    <description>Make dough.</description>
-    <jobString>making dough.</jobString>
+  <RecipeDef>
+    <defName>CraftRiceDough</defName>
+    <label>craft rice dought</label>
+    <description>Make rice dough.</description>
+    <jobString>making rice dough.</jobString>
     <workAmount>300</workAmount>
     <workSpeedStat>CookSpeed</workSpeedStat>
     <effectWorking>Cook</effectWorking>
@@ -29,6 +29,68 @@
     </ingredients>
     <products>
       <ISA_Dough>3</ISA_Dough>
+    </products>
+  </RecipeDef>
+
+  <RecipeDef>
+    <defName>CraftPotatoDough</defName>
+    <label>craft potato dought</label>
+    <description>Make potato dough.</description>
+    <jobString>making potato dough.</jobString>
+    <workAmount>300</workAmount>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RawPotato</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ISA_Water_Bucket</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <products>
+      <ISA_Dough>5</ISA_Dough>
+    </products>
+  </RecipeDef>
+
+  <RecipeDef>
+    <defName>CraftCornDough</defName>
+    <label>craft corn dought</label>
+    <description>Make corn dough.</description>
+    <jobString>making corn dough.</jobString>
+    <workAmount>300</workAmount>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RawCorn</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ISA_Water_Bucket</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <products>
+      <ISA_Dough>7</ISA_Dough>
     </products>
   </RecipeDef>
 
