@@ -3,7 +3,7 @@
 
 <RecipeDef>
     <defName>CollectWater</defName>
-    <label>collect water</label>
+    <label>collect water bucket</label>
     <description>Make a batch of chemfuel by extracting and condensing wood gas from logs.</description>
     <jobString>collecting water.</jobString>
     <effectWorking>Cremate</effectWorking>
@@ -18,8 +18,8 @@
   </RecipeDef>
 
   <RecipeDef>
-    <defName>CollectWater</defName>
-    <label>collect water</label>
+    <defName>4CollectWater</defName>
+    <label>collect 4 water bucket</label>
     <description>Make a batch of chemfuel by extracting and condensing wood gas from logs.</description>
     <jobString>collecting water.</jobString>
     <effectWorking>Cremate</effectWorking>
@@ -35,7 +35,7 @@
 
   <RecipeDef>
     <defName>CollectWater</defName>
-    <label>collect water</label>
+    <label>collect 16 water bucket</label>
     <description>Make a batch of chemfuel by extracting and condensing wood gas from logs.</description>
     <jobString>collecting water.</jobString>
     <effectWorking>Cremate</effectWorking>
