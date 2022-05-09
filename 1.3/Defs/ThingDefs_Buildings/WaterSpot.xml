@@ -20,8 +20,8 @@
       <li>CollectWater</li>
       <li>4CollectWater</li>
       <li>16CollectWater</li>
-      <lì>CollectClay</li>
-      <li>Fishing</li>
+      <li>CollectClay</li>
+      <li>ISA_Fishing</li>
     </recipes>
     <scatterableOnMapGen>false</scatterableOnMapGen>
     <useHitPoints>false</useHitPoints>
