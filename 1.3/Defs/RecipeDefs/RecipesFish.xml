@@ -2,13 +2,12 @@
 <Defs>
 
   <RecipeDef>
-    <defName>Fishing</defName>
+    <defName>ISA_Fishing</defName>
     <label>fishing</label>
     <description>Fishing.</description>
     <jobString>fishing.</jobString>
-    <workAmount>600</workAmount>
-    <workSpeedStat>HuntingStealth</workSpeedStat>
-    <effectWorking>Handling</effectWorking>
+    <workAmount>200</workAmount>
+    <workSpeedStat>TameAnimalChance</workSpeedStat>
     <ingredients>
     </ingredients>
     <products>
