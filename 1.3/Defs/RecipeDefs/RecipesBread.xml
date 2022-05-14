@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <RecipeDef>
+    <defName>CookBread</defName>
+    <label>cook bread</label>
+    <description>Cook bread oven.</description>
+    <jobString>cooking bread.</jobString>
+    <workAmount>300</workAmount>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <ingredients>
+      <ISA_Dough>1</ISA_Dough>
+    </ingredients>
+    <products>
+      <ISA_Bread>1</ISA_Bread>
+    </products>
+  </RecipeDef>
+
+</Defs>
