@@ -10,10 +10,65 @@
     <workSpeedStat>CookSpeed</workSpeedStat>
     <effectWorking>Cook</effectWorking>
     <ingredients>
-      <ISA_Dough>1</ISA_Dough>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ISA_Dough</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
     </ingredients>
     <products>
       <ISA_Bread>1</ISA_Bread>
+    </products>
+  </RecipeDef>
+
+
+  <RecipeDef>
+    <defName>4CookBread</defName>
+    <label>cook 4 bread</label>
+    <description>Cook bread oven.</description>
+    <jobString>cooking bread.</jobString>
+    <workAmount>1200</workAmount>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ISA_Dough</li>
+          </thingDefs>
+        </filter>
+        <count>4</count>
+      </li>
+    </ingredients>
+    <products>
+      <ISA_Bread>4</ISA_Bread>
+    </products>
+  </RecipeDef>
+
+
+  <RecipeDef>
+    <defName>16CookBread</defName>
+    <label>cook 16 bread</label>
+    <description>Cook bread oven.</description>
+    <jobString>cooking bread.</jobString>
+    <workAmount>4000</workAmount>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ISA_Dough</li>
+          </thingDefs>
+        </filter>
+        <count>16</count>
+      </li>
+    </ingredients>
+    <products>
+      <ISA_Bread>16</ISA_Bread>
     </products>
   </RecipeDef>
 
