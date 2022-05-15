@@ -21,7 +21,7 @@
     <label>bread</label>
     <description>bread.</description>
     <graphicData>
-      <texPath>Things/Item/Resource/Doughs/Dough</texPath>
+      <texPath>Things/Item/Resource/Bread/Bread</texPath>
     </graphicData>
     <statBases>
       <MarketValue>1.3</MarketValue>
