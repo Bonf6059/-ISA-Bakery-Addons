@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <ThingDef ParentName="BuildingBase">
+  <ThingDef ParentName="BenchBase">
     <defName>PastryBoard</defName>
     <label>pastry board</label>
     <description>A place for kneading.</description>
@@ -13,9 +13,18 @@
     </graphicData>
     <altitudeLayer>FloorEmplacement</altitudeLayer>
     <statBases>
-      <WorkToBuild>0</WorkToBuild>
       <WorkTableWorkSpeedFactor>1</WorkTableWorkSpeedFactor>
+      <MaxHitPoints>75</MaxHitPoints>
+      <WorkToBuild>800</WorkToBuild>
+      <Mass>5</Mass>
+      <Beauty>-5</Beauty>
     </statBases>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+      <li>Stony</li>
+    </stuffCategories>
+    <costStuffCount>20</costStuffCount>
     <recipes>
       <li>CraftRiceDough</li>
       <li>CraftPotatoDough</li>
