@@ -6,7 +6,7 @@
     <description>An electrically-powered oven.</description>
     <thingClass>Building_WorkTable_HeatPush</thingClass>
     <graphicData>
-      <texPath>Things/Structure/OvenElectric/Oven</texPath>
+      <texPath>Things/Structure/Oven/OvenElectric/Oven</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
       <drawSize>(1.5,1.5)</drawSize>
       <damageData>
