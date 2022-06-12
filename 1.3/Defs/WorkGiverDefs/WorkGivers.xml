@@ -27,8 +27,26 @@
     <fixedBillGiverDefs>
       <li>PastryBoard</li>
     </fixedBillGiverDefs>
-    <verb>fill</verb>
-    <gerund>filling</gerund>
+    <verb>knead</verb>
+    <gerund>kneading</gerund>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+    <prioritizeSustains>true</prioritizeSustains>
+  </WorkGiverDef>
+
+  <WorkGiverDef>
+    <defName>CookAtTheOven</defName>
+    <label>cook at the oven</label>
+    <giverClass>WorkGiver_DoBill</giverClass>
+    <workType>Cooking</workType>
+    <priorityInType>100</priorityInType>
+    <fixedBillGiverDefs>
+      <li>ISA_ElectricOven</li>
+      <li>ISA_FueledOven</li>
+    </fixedBillGiverDefs>
+    <verb>cook</verb>
+    <gerund>cooking</gerund>
     <requiredCapacities>
       <li>Manipulation</li>
     </requiredCapacities>
