@@ -17,6 +17,9 @@
       <MaxHitPoints>60</MaxHitPoints>
       <Flammability>0</Flammability>
     </statBases>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
     <tickerType>Normal</tickerType>
     <comps>
       <li Class="CompProperties_Rottable">
