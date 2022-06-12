@@ -14,6 +14,9 @@
     </statBases>
     <tickerType>Rare</tickerType>
     <healthAffectsPrice>false</healthAffectsPrice>
+    <thingCategories>
+      <li>Foods</li>
+    </thingCategories>
   </ThingDef>
 
 <ThingDef ParentName="DoughBase">
