@@ -14,9 +14,12 @@
     </statBases>
     <tickerType>Rare</tickerType>
     <healthAffectsPrice>false</healthAffectsPrice>
+    <thingCategories>
+      <li>FoodMeals</li>
+    </thingCategories>
   </ThingDef>
 
-<ThingDef ParentName="DoughBase">
+<ThingDef ParentName="BreadBase">
     <defName>ISA_Bread</defName>
     <label>bread</label>
     <description>bread.</description>
@@ -24,8 +27,9 @@
       <texPath>Things/Item/Resource/Bread/Bread</texPath>
     </graphicData>
     <statBases>
+      <Nutrition>0.1</Nutrition>
       <MarketValue>1.3</MarketValue>
-      <WorkToMake>300</WorkToMake>
+      <WorkToMake>1200</WorkToMake>
     </statBases>
   </ThingDef>
 
